@@ -34,26 +34,43 @@ Install the required libraries:
 ```bash
 pip install numpy matplotlib
 
-Run the program:
 
+
+Run the program:
 python main.py
+
 🧩 Program Options
 
 The program provides four simulation modes:
 
-Dynamic Huffman Coding
+1. Dynamic Huffman Coding
+
 Generates Huffman codes based on source symbol probabilities.
-Hamming Matrix Generation
+
+2. Hamming Matrix Generation
+
 Generates the generator and parity-check matrices for a Hamming code.
-BSC Channel Simulation
+
+3. BSC Channel Simulation
+
 Simulates bit errors through a Binary Symmetric Channel (BSC).
-Full Communication Chain
-Runs the complete system: Huffman coding → Hamming coding → BSC → decoding → BER/SNR analysis → Shannon Limit comparison.
+
+4. Full Communication Chain
+
+Runs the complete system:
+
+Huffman Coding → Hamming Coding → BSC → Decoding → BER/SNR Analysis → Shannon Limit Comparison
+
+
+
 🎓 Course Information
 Course: Information Theory & Coding
 University: University of Isfahan
 Department: Faculty of Mathematics and Statistics
 Semester: 04–05
+
+
+
 👩‍💻 Author
 
 Seyedeh Zahra Tabatabaei
